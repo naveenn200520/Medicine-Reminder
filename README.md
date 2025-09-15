@@ -70,7 +70,7 @@ Multi-language support (English, Tamil, etc.)
 Developed by [Your Name]
 If you'd like to collaborate or suggest features, feel free to reach out.
 
-📧 your.email@example.com
+📧 naveenn200520@gmail.com
 
 🔗 LinkedIn
  | GitHub
