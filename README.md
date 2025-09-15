@@ -38,7 +38,7 @@ Installation
 
 Clone the repo:
 
-git clone https://github.com/yourusername/medicine-reminder.git
+git clone https://github.com/naveenn200520/medicine-reminder.git
 cd medicine-reminder
 
 
