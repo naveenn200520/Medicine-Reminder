@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background with floating capsules */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #ffdee9, #b5fffc);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Floating capsule animation */
+.capsule {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: linear-gradient(135deg, #ff4da6, #ffffff);
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(255, 100, 150, 0.7);
+  animation: float 10s linear infinite;
+  opacity: 0.8;
+}
+
+.capsule::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  width: 20px;
+  height: 30px;
+  background: linear-gradient(135deg, #00c6ff, #ffffff);
+  border-radius: 50%;
+}
+
+/* Animation for capsules */
+@keyframes float {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-20vh) rotate(360deg); }
+}
+
+/* Container box */
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  color: #428079;
+}
+
+/* Labels */
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #00796B;
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+}
+
+/* Button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #00796B;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #004D40;
+}
+
+/* Register link */
+a {
+  display: block;
+  margin-top: 15px;
+  color: #00796B;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*style for bod*/
+
+input[type="text"],
+input[type="date"] {
+  padding: 12px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+  border: 1px solid #007bff;
+}
+
+/*style for add medicine*/
+
+button {
+  padding: 12px 20px;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-radius: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+/* Logout Button Styling */
+a[href="login.html"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff4b5c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+a[href="login.html"]:hover {
+    background: #ff1e38;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+a[href="login.html"]:active {
+    transform: scale(0.95);
+}

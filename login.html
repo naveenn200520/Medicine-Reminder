@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form action="php/login.php" method="POST">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+      <input type="submit" value="Login">
+    </form>
+    <a href="register.html">New user? Register here</a>
+  </div>
+  <div class="alert alert-success" role="alert">
+   login success
+</div>
+    <!-- Floating Capsules -->
+  <div class="capsule" style="left: 10%; animation-duration: 8s;"></div>
+  <div class="capsule" style="left: 30%; animation-duration: 12s;"></div>
+  <div class="capsule" style="left: 50%; animation-duration: 10s;"></div>
+  <div class="capsule" style="left: 70%; animation-duration: 14s;"></div>
+  <div class="capsule" style="left: 90%; animation-duration: 9s;"></div>
+</body>
+</html>
