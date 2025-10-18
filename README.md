@@ -67,10 +67,10 @@ Multi-language support (English, Tamil, etc.)
 
 🧑‍💻 Author
 
-Developed by [Your Name]
+Developed by [Naveen T]
 If you'd like to collaborate or suggest features, feel free to reach out.
 
 📧 naveenn200520@gmail.com
 
-🔗 LinkedIn
+🔗 
  | GitHub
